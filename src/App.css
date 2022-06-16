@@ -128,11 +128,11 @@ html {
 }
 
 .card-1 {
-  width: 60%;
+  width: 65%;
 }
 
 .card-2 {
-  width: 50%;
+  width: 45%;
 }
 
 .tags {
@@ -234,4 +234,21 @@ html {
 
 .wave-3 .shape-fill {
   fill: #b97aff;
+}
+
+.max-width {
+  max-width: 60rem;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.pointer {
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
 }

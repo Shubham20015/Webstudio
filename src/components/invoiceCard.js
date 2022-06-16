@@ -7,9 +7,9 @@ export default function InvoiceCard({ approved }) {
       <div className="d-flex justify-content-between align-items-start">
         <p>Amount</p>
         {approved ? (
-          <span class="badge bg-success fw-light">Approved</span>
+          <span className="badge bg-success fw-light">Approved</span>
         ) : (
-          <span class="badge bg-info fw-light">Pending</span>
+          <span className="badge bg-info fw-light">Pending</span>
         )}
       </div>
       <div className="d-flex align-items-center gap-4">

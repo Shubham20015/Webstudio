@@ -42,7 +42,6 @@ function App() {
           <div className="d-flex gap-2 mb-4">
             <CurrentCard />
             <CurrentCard />
-            <CurrentCard />
           </div>
           <div className="d-flex justify-content-between align-items-start">
             <div>
